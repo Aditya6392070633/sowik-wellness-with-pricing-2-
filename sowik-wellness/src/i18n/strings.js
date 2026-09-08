@@ -161,9 +161,12 @@ export const strings = {
     eyebrow: { en: "Who's Behind It", hi: "इसके पीछे कौन है" },
     titlePrefix: { en: "Built by people who ", hi: "उन लोगों द्वारा बनाया गया जो " },
     titleItalic: { en: "practice this daily.", hi: "इसे रोज़ाना अभ्यास में लाते हैं।" },
+<<<<<<< HEAD
     doctorsEyebrow: { en: "Our Doctors", hi: "हमारे डॉक्टर" },
     doctorsTitlePrefix: { en: "Guided by qualified ", hi: "योग्य " },
     doctorsTitleItalic: { en: "Ayurvedic physicians.", hi: "आयुर्वेदिक चिकित्सकों द्वारा मार्गदर्शित।" },
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
     messageOnWhatsapp: { en: "Message on WhatsApp", hi: "व्हाट्सएप पर संदेश भेजें" },
   },
 
@@ -262,8 +265,11 @@ export const strings = {
     getInTouch: { en: "Get In Touch", hi: "संपर्क करें" },
     bookOnWhatsapp: { en: "Book on WhatsApp", hi: "व्हाट्सएप पर बुक करें" },
     howBookingWorks: { en: "How booking works", hi: "बुकिंग कैसे काम करती है" },
+<<<<<<< HEAD
     visitUs: { en: "Visit Us", hi: "हमसे मिलें" },
     followUs: { en: "Follow Us", hi: "हमें फॉलो करें" },
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
     copyrightSuffix: {
       en: "Sowik Wellness. Home-visit Ayurvedic therapy.",
       hi: "सोविक वेलनेस। घर-विज़िट आयुर्वेदिक चिकित्सा।",

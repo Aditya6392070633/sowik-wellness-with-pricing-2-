@@ -339,6 +339,7 @@ h1, h2, h3 {
 .nav-search-backdrop { display: none; }
 
 @media (max-width: 860px) {
+<<<<<<< HEAD
   /* Hide desktop navigation links */
   .nav-links,
   .nav-phone {
@@ -392,6 +393,12 @@ h1, h2, h3 {
   }
 
   /* Mobile search box */
+=======
+  .nav-links, .nav-phone { display: none; }
+  .nav-toggle { display: inline-flex; }
+  .nav-cta { gap: 8px; }
+  .lang-toggle-btn { padding: 6px 9px; font-size: 12px; }
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   .nav-search-box {
     position: fixed;
     top: 74px;
@@ -404,11 +411,15 @@ h1, h2, h3 {
     padding: 14px clamp(20px, 5vw, 56px);
     z-index: 70;
   }
+<<<<<<< HEAD
 
   .nav-search-close {
     display: inline-flex;
   }
 
+=======
+  .nav-search-close { display: inline-flex; }
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   .nav-search-backdrop {
     display: block;
     position: fixed;
@@ -417,8 +428,11 @@ h1, h2, h3 {
     background: rgba(0, 0, 0, 0.4);
     z-index: 65;
   }
+<<<<<<< HEAD
 
   /* Mobile drawer */
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   .nav-drawer {
     display: flex;
     flex-direction: column;
@@ -427,7 +441,10 @@ h1, h2, h3 {
     border-bottom: 1px solid var(--on-ink-line);
     background: rgba(22, 36, 27, 0.98);
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   .nav-drawer a {
     color: var(--paper);
     text-decoration: none;
@@ -435,6 +452,7 @@ h1, h2, h3 {
     font-size: 15px;
   }
 }
+<<<<<<< HEAD
 .doctor-consultation-fee {
   display: inline-flex;
   align-items: center;
@@ -448,6 +466,9 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 0.02em;
 }
+=======
+
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 /* ---------- hero ---------- */
 .hero {
   position: relative;
@@ -1199,7 +1220,11 @@ h1, h2, h3 {
 }
 .footer-grid {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 1.3fr 1fr 1fr 1fr;
+=======
+  grid-template-columns: 1.3fr 1fr 1fr;
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   gap: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid var(--on-ink-line);
@@ -1223,6 +1248,7 @@ h1, h2, h3 {
 .footer-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .footer-col a { text-decoration: none; font-size: 14.5px; color: rgba(246, 239, 221, 0.78); }
 .footer-col a:hover { color: var(--gold); }
+<<<<<<< HEAD
 .footer-address {
   display: flex;
   align-items: flex-start;
@@ -1245,6 +1271,8 @@ h1, h2, h3 {
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 .footer-social a:hover { color: var(--gold); border-color: var(--gold); }
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 .footer-bottom {
   display: flex;
   justify-content: space-between;

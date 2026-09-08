@@ -130,6 +130,7 @@ export function PhoneMark(props) {
   );
 }
 
+<<<<<<< HEAD
 export function FacebookMark(props) {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" {...props}>
@@ -168,6 +169,8 @@ export function LocationMark(props) {
   );
 }
 
+=======
+>>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 export function WhatsappMark(props) {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" {...props}>
