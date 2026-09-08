@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { LeafMark, FacebookMark, InstagramMark, LocationMark } from "../icons/Marks";
-=======
-import { LeafMark } from "../icons/Marks";
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 import { chapters, contact } from "../data/services";
 import { useLanguage } from "../context/LanguageContext";
 import { strings } from "../i18n/strings";
@@ -50,7 +46,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-<<<<<<< HEAD
 
           <div className="footer-col">
             <h5>{t(s.visitUs)}</h5>
@@ -71,8 +66,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-=======
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
         </div>
 
         <div className="footer-bottom">

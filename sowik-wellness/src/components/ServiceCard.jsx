@@ -7,11 +7,7 @@ export default function ServiceCard({ item }) {
   const s = strings.serviceCard;
 
   const message = encodeURIComponent(s.whatsappMessage[lang](t(item.name), t(item.subtitle)));
-<<<<<<< HEAD
   const href = `https://wa.me/919667657227?text=${message}`;
-=======
-  const href = `https://wa.me/919690148288?text=${message}`;
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 
   const hasPrice = Boolean(item.original && item.discounted);
   const isQuotePrice = hasPrice && item.original === item.discounted;

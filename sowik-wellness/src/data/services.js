@@ -394,11 +394,7 @@ export const chapters = [
   },
 ];
 
-<<<<<<< HEAD
 export const founders = [
-=======
-export const team = [
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
   {
     role: { en: "Founder", hi: "संस्थापक" },
     name: "Sohit Kumar",
@@ -437,7 +433,6 @@ export const team = [
       hi: ["सह-संस्थापक और परिचालन प्रमुख", "ग्राहक अनुभव", "थेरेपिस्ट समन्वय", "बुकिंग और परिचालन"],
     },
   },
-<<<<<<< HEAD
 ];
 
 export const doctors = [
@@ -481,11 +476,6 @@ export const doctors = [
       en: "₹1,000 Consultation Fee",
       hi: "₹1,000 परामर्श शुल्क",
     },
-=======
-  {
-    role: { en: "Doctor", hi: "डॉक्टर" },
-    name: "Dr. Shijin TP",
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
     title: {
       en: "BAMS | Musculoskeletal & Neurological Wellness",
       hi: "बीएएमएस | मस्कुलोस्केलेटल और न्यूरोलॉजिकल वेलनेस",
@@ -518,7 +508,6 @@ export const doctors = [
       ],
     },
   },
-<<<<<<< HEAD
   {
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Payal Sharma",
@@ -569,14 +558,4 @@ export const contact = {
   facebookUrl: "https://www.facebook.com/share/1Q1iqH2AFh/",
   instagramUrl:
     "https://www.instagram.com/sovikwellness?igsi=Z2FyNGg4OHg5YnM5&utm_source=ig_contact_invite",
-=======
-];
-
-export const contact = {
-  phone: "+91 9690148288",
-  phoneHref: "tel:+919690148288",
-  whatsappHref:
-    "https://wa.me/919690148288?text=" +
-    encodeURIComponent("Namaste Sowik Wellness, I'd like to book a home session."),
->>>>>>> 9ed06dd9d93d84d7ea52a8761053bc98e1c5e421
 };
