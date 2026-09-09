@@ -440,8 +440,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Annya Gautam",
     consultationFee: {
-      en: "₹1,000 Consultation Fee",
-      hi: "₹1,000 परामर्श शुल्क",
+      en: "₹1,000 online Consultation Fee",
+      hi: "₹1,000 डिजिटल परामर्श शुल्क",
     },
     title: {
       en: "BAMS, MD (Panchakarma)",
@@ -473,8 +473,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Shijin TP",
     consultationFee: {
-      en: "₹1,000 Consultation Fee",
-      hi: "₹1,000 परामर्श शुल्क",
+      en: "₹1,000 online Consultation Fee",
+      hi: "₹1,000 डिजिटल परामर्श शुल्क",
     },
     title: {
       en: "BAMS | Musculoskeletal & Neurological Wellness",
@@ -512,8 +512,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Payal Sharma",
     consultationFee: {
-      en: "₹1,000 Consultation Fee",
-      hi: "₹1,000 परामर्श शुल्क",
+      en: "₹1,000 online Consultation Fee",
+      hi: "₹1,000 डिजिटल परामर्श शुल्क",
     },
     title: {
       en: "BAMS, MS (Ayurveda) — Gynecology & Obstetrics",
