@@ -443,8 +443,8 @@ export const doctors = [
   name: "Dr. Ananya Gautam",
 
   consultationFee: {
-    en: "₹1,000 Consultation Fee",
-    hi: "₹1,000 परामर्श शुल्क",
+    en: "₹1,000 online Consultation Fee",
+    hi: "₹1,000 डिजिटल परामर्श शुल्क",
   },
 
   title: {
@@ -490,8 +490,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Shijin TP",
     consultationFee: {
-      en: "₹1,000 Consultation Fee",
-      hi: "₹1,000 परामर्श शुल्क",
+      en: "₹1,000 online Consultation Fee",
+      hi: "₹1,000 डिजिटल परामर्श शुल्क",
     },
     title: {
       en: "BAMS | Musculoskeletal & Neurological Wellness",
@@ -529,8 +529,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Payal Sharma",
     consultationFee: {
-      en: "₹1,000 Consultation Fee",
-      hi: "₹1,000 परामर्श शुल्क",
+      en: "₹1,000 online Consultation Fee",
+      hi: "₹1,000 डिजिटल परामर्श शुल्क",
     },
     title: {
       en: "BAMS, MS (Ayurveda) — Gynecology & Obstetrics",
@@ -571,7 +571,7 @@ export const contact = {
   whatsappHref:
     "https://wa.me/919667657227?text=" +
     encodeURIComponent("Namaste Sowik Wellness, I'd like to book a home session."),
-  address: "F 149, 2nd Floor, Vasundhara Sector 3, Ghaziabad, 201012",
+  address: "House No. 149 2nd Floor, Vasundhara Sector 3, Ghaziabad, 201012",
   facebookUrl: "https://www.facebook.com/share/1Q1iqH2AFh/",
   instagramUrl:
     "https://www.instagram.com/sovikwellness?igsi=Z2FyNGg4OHg5YnM5&utm_source=ig_contact_invite",
