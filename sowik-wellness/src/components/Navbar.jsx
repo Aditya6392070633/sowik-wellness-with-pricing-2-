@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { LeafMark, WhatsappMark } from "../icons/Marks";
-import { contact, chapters, slugify } from "../data/services";
+import { contact, chapters, doctors, slugify } from "../data/services";
 import { useLanguage } from "../context/LanguageContext";
 import { strings } from "../i18n/strings";
 
@@ -18,30 +18,59 @@ export default function Navbar() {
     );
   }, []);
 
-  const results = useMemo(() => {
-    if (!query.trim()) return [];
-    const q = query.toLowerCase();
-    return allServices
-      .filter(
-        (s) =>
-          t(s.name).toLowerCase().includes(q) ||
-          t(s.subtitle)?.toLowerCase().includes(q) ||
-          t(s.chapterTitle).toLowerCase().includes(q)
-      )
-      .slice(0, 6);
-  }, [query, allServices, lang]); // eslint-disable-line react-hooks/exhaustive-deps
+const results = useMemo(() => {
+  if (!query.trim()) return [];
 
-  const goToService = (name) => {
-    const el = document.getElementById(slugify(name));
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
-      el.classList.add("label-card-highlight");
-      setTimeout(() => el.classList.remove("label-card-highlight"), 1800);
-    }
-    setSearchOpen(false);
-    setQuery("");
-  };
+  const q = query.toLowerCase();
 
+  const serviceResults = allServices
+    .filter(
+      (s) =>
+        t(s.name).toLowerCase().includes(q) ||
+        t(s.subtitle)?.toLowerCase().includes(q) ||
+        t(s.chapterTitle).toLowerCase().includes(q)
+    )
+    .map((s) => ({
+      ...s,
+      type: "service",
+    }));
+
+  const doctorResults = doctors
+    .filter(
+      (doctor) =>
+        doctor.name.toLowerCase().includes(q) ||
+        t(doctor.title).toLowerCase().includes(q) ||
+        t(doctor.role).toLowerCase().includes(q) ||
+        "doctor".includes(q) ||
+        "doctors".includes(q)
+    )
+    .map((doctor) => ({
+      ...doctor,
+      type: "doctor",
+      chapterTitle: {
+        en: "Our Doctors",
+        hi: "हमारे डॉक्टर",
+      },
+    }));
+
+  return [...serviceResults, ...doctorResults].slice(0, 6);
+}, [query, allServices, lang, t]); // eslint-disable-line react-hooks/exhaustive-deps
+
+ const goToResult = (result) => {
+  const el = document.getElementById(slugify(result.name));
+
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("label-card-highlight");
+
+    setTimeout(() => {
+      el.classList.remove("label-card-highlight");
+    }, 1800);
+  }
+
+  setSearchOpen(false);
+  setQuery("");
+};
   const LangToggle = ({ className }) => (
     <div className={`lang-toggle ${className || ""}`} role="group" aria-label="Language">
       <button
@@ -105,7 +134,7 @@ export default function Navbar() {
                       placeholder={t(strings.nav.searchPlaceholder)}
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      onKeyDown={(e) => e.key === "Enter" && results[0] && goToService(results[0].name.en)}
+                    onKeyDown={(e) => e.key === "Enter" && results[0] && goToResult(results[0])}
                     />
                     <button
                       className="nav-search-close"
@@ -123,7 +152,7 @@ export default function Navbar() {
                         <button
                           key={r.name.en}
                           className="nav-search-result"
-                          onClick={() => goToService(r.name.en)}
+                         onClick={() => goToResult(r)}
                         >
                           <span className="nsr-name">{t(r.name)}</span>
                           <span className="nsr-chapter">{t(r.chapterTitle)}</span>
