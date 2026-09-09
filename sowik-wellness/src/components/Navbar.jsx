@@ -56,11 +56,22 @@ const results = useMemo(() => {
   return [...serviceResults, ...doctorResults].slice(0, 6);
 }, [query, allServices, lang, t]); // eslint-disable-line react-hooks/exhaustive-deps
 
- const goToResult = (result) => {
-  const el = document.getElementById(slugify(result.name));
+const goToResult = (result) => {
+  // Services have name.en / name.hi
+  // Doctors have name as a normal string
+  const targetName =
+    result.type === "doctor"
+      ? result.name
+      : result.name.en;
+
+  const el = document.getElementById(slugify(targetName));
 
   if (el) {
-    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+
     el.classList.add("label-card-highlight");
 
     setTimeout(() => {
