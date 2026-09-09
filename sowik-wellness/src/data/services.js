@@ -440,50 +440,41 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Annya Gautam",
     consultationFee: {
-      en: "₹1,000 online Consultation Fee",
-      hi: "₹1,000 डिजिटल परामर्श शुल्क",
+      en: "₹1,000 Consultation Fee",
+      hi: "₹1,000 परामर्श शुल्क",
     },
     title: {
-      en: "MD, (AYURVEDA) PANCHAKARMA",  – 
+      en: "BAMS, MD (Panchakarma)",
       hi: "बीएएमएस, एमडी (पंचकर्म)",
     },
     image: "doctor-annya-gautam.jpg",
     bio: {
-      en: "Dr. Ananya Gautam is an experienced Ayurvedic physician specializing in authentic Panchakarma treatments, detoxification, and holistic body rejuvenation. With a deep focus on natural healing, she combines classical Ayurvedic procedures and lifestyle modifications to manage both acute and chronic conditions. Her areas of expertise include bone and joint disorders, nerve disorders, lifestyle disorders, gynecological concerns, skin infections, and hormonal imbalances. Dr. Ananya believes in identifying the root cause of health issues, clearing deep-seated toxins through personalized Panchakarma therapies, and restoring the body's natural balance with safe, compassionate, and holistic care.",
-    hi: "डॉ. अनन्या गौतम एक अनुभवी आयुर्वेदिक चिकित्सक हैं, जो प्रामाणिक पंचकर्म उपचार, डिटॉक्सिफिकेशन और समग्र शारीरिक कायाकल्प में विशेषज्ञता रखती हैं। प्राकृतिक उपचार पर विशेष ध्यान देते हुए, वे शास्त्रीय आयुर्वेदिक प्रक्रियाओं और जीवनशैली में बदलाव के माध्यम से विभिन्न तीव्र और दीर्घकालिक स्थितियों के प्रबंधन में सहायता करती हैं।",
-  },
-      highlights: {
-    en: [
-      "MD (Ayurveda)",
-      "Panchakarma",
-      "Bone & Joint Disorders",
-      "Nerve Disorders",
-      "Lifestyle Disorders",
-      "Gynecology",
-      "Skin Infections",
-      "Hormonal Imbalance",
-      "Detoxification",
-    ],
-
-    hi: [
-      "एमडी (आयुर्वेद)",
-      "पंचकर्म",
-      "हड्डी और जोड़ों के विकार",
-      "तंत्रिका संबंधी विकार",
-      "जीवनशैली संबंधी विकार",
-      "स्त्री रोग",
-      "त्वचा संक्रमण",
-      "हार्मोनल असंतुलन",
-      "डिटॉक्सिफिकेशन",
-    ],
+      en: "Dr. Annya Gautam (BAMS, MD Panchakarma) brings clinical experience across diagnostic testing, patient counselling, diagnosis, and treatment, along with training in Advanced Cardiovascular Life Support (ACLS & BLS). Her background includes peripheral OPDs and camps across Maharashtra, specialty-clinic training, and certification in Ayurvedic cosmetology and trichology. She has presented multiple papers and posters at national and international conferences, with published work spanning insomnia, depressive disorder, diabetic neuropathy with stroke, and hepatocellular jaundice.",
+      hi: "डॉ. अन्न्या गौतम (बीएएमएस, एमडी पंचकर्म) को डायग्नोस्टिक टेस्टिंग, पेशेंट काउंसलिंग, निदान और उपचार में नैदानिक अनुभव है, साथ ही एडवांस्ड कार्डियोवैस्कुलर लाइफ सपोर्ट (ACLS व BLS) में प्रशिक्षण भी प्राप्त है। उनकी पृष्ठभूमि में महाराष्ट्र भर में पेरिफेरल ओपीडी व कैंप, स्पेशलिटी क्लिनिक प्रशिक्षण, और आयुर्वेदिक कॉस्मेटोलॉजी व ट्राइकोलॉजी में सर्टिफिकेशन शामिल है। उन्होंने राष्ट्रीय व अंतरराष्ट्रीय सम्मेलनों में कई पेपर व पोस्टर प्रस्तुत किए हैं, जिनमें अनिद्रा, अवसाद, डायबिटिक न्यूरोपैथी व स्ट्रोक और हेपेटोसेल्युलर पीलिया पर प्रकाशित कार्य शामिल हैं।",
+    },
+    highlights: {
+      en: [
+        "BAMS, MD Panchakarma",
+        "Diagnosis & Treatment",
+        "Patient Counselling",
+        "ACLS & BLS Trained",
+        "Ayurvedic Cosmetology & Trichology",
+      ],
+      hi: [
+        "बीएएमएस, एमडी पंचकर्म",
+        "निदान और उपचार",
+        "रोगी परामर्श",
+        "ACLS व BLS प्रशिक्षित",
+        "आयुर्वेदिक कॉस्मेटोलॉजी व ट्राइकोलॉजी",
+      ],
     },
   },
   {
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Shijin TP",
     consultationFee: {
-      en: "₹1,000 online Consultation Fee",
-      hi: "₹1,000 डिजिटल परामर्श शुल्क",
+      en: "₹1,000 Consultation Fee",
+      hi: "₹1,000 परामर्श शुल्क",
     },
     title: {
       en: "BAMS | Musculoskeletal & Neurological Wellness",
@@ -521,8 +512,8 @@ export const doctors = [
     role: { en: "Doctor", hi: "डॉक्टर" },
     name: "Dr. Payal Sharma",
     consultationFee: {
-      en: "₹1,000 online Consultation Fee",
-      hi: "₹1,000 डिजिटल परामर्श शुल्क",
+      en: "₹1,000 Consultation Fee",
+      hi: "₹1,000 परामर्श शुल्क",
     },
     title: {
       en: "BAMS, MS (Ayurveda) — Gynecology & Obstetrics",
@@ -562,8 +553,8 @@ export const contact = {
   phoneHref: "tel:+919667657227",
   whatsappHref:
     "https://wa.me/919667657227?text=" +
-    encodeURIComponent("Namaste Sovik Wellness, I'd like to book a home session."),
-  address: "House No. 149, 2nd Floor, Vasundhara Sector-3, Ghaziabad, 201012",
+    encodeURIComponent("Namaste Sowik Wellness, I'd like to book a home session."),
+  address: "F 149, 2nd Floor, Vasundhara Sector 3, Ghaziabad, 201012",
   facebookUrl: "https://www.facebook.com/share/1Q1iqH2AFh/",
   instagramUrl:
     "https://www.instagram.com/sovikwellness?igsi=Z2FyNGg4OHg5YnM5&utm_source=ig_contact_invite",
