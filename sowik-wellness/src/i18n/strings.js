@@ -265,7 +265,7 @@ export const strings = {
     visitUs: { en: "Visit Us", hi: "हमसे मिलें" },
     followUs: { en: "Follow Us", hi: "हमें फॉलो करें" },
     copyrightSuffix: {
-      en: "Sowik Wellness. Home-visit Ayurvedic therapy.",
+      en: "Sovik Wellness. Home-visit Ayurvedic therapy.",
       hi: "सोविक वेलनेस। घर-विज़िट आयुर्वेदिक चिकित्सा।",
     },
     bookingsNote: {
