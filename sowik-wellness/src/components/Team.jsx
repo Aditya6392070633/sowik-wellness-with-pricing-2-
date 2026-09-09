@@ -52,7 +52,7 @@ function TeamGrid({ members }) {
   href={
     members === doctors
       ? `https://wa.me/919667657227?text=${encodeURIComponent(
-          `Namaste Sowik Wellness, I would like to book a consultation with ${member.name}. Consultation fee: ₹1,000.`
+          `Namaste Sovik Wellness, I would like to book a consultation with ${member.name}. Consultation fee: ₹1,000.`
         )}`
       : contact.whatsappHref
   }
