@@ -1,4 +1,4 @@
-import { founders, doctors, contact } from "../data/services";
+import { founders, doctors, contact, slugify } from "../data/services";
 import { WhatsappMark } from "../icons/Marks";
 import { useLanguage } from "../context/LanguageContext";
 import { strings } from "../i18n/strings";
@@ -10,7 +10,11 @@ function TeamGrid({ members }) {
   return (
     <div className="team-grid">
       {members.map((member) => (
-        <article className="team-card" key={member.name}>
+        <article
+  className="team-card"
+  id={slugify(member.name)}
+  key={member.name}
+>
           <div className="team-photo">
             <img
               src={`/images/${member.image}`}
@@ -48,7 +52,7 @@ function TeamGrid({ members }) {
   href={
     members === doctors
       ? `https://wa.me/919667657227?text=${encodeURIComponent(
-          `Namaste Sowik Wellness, I would like to book a online consultation with ${member.name}. Consultation fee: ₹1,000.`
+          `Namaste Sowik Wellness, I would like to book a consultation with ${member.name}. Consultation fee: ₹1,000.`
         )}`
       : contact.whatsappHref
   }
