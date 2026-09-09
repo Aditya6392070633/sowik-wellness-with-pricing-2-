@@ -553,8 +553,8 @@ export const contact = {
   phoneHref: "tel:+919667657227",
   whatsappHref:
     "https://wa.me/919667657227?text=" +
-    encodeURIComponent("Namaste Sowik Wellness, I'd like to book a home session."),
-  address: "F 149, 2nd Floor, Vasundhara Sector 3, Ghaziabad, 201012",
+    encodeURIComponent("Namaste Sovik Wellness, I'd like to book a home session."),
+  address: "House No. 149, 2nd Floor, Vasundhara Sector-3, Ghaziabad, 201012",
   facebookUrl: "https://www.facebook.com/share/1Q1iqH2AFh/",
   instagramUrl:
     "https://www.instagram.com/sovikwellness?igsi=Z2FyNGg4OHg5YnM5&utm_source=ig_contact_invite",
