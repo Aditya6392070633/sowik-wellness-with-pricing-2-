@@ -43,10 +43,21 @@ function TeamGrid({ members }) {
               </div>
             )}
 
-            <a className="team-link" href={contact.whatsappHref} target="_blank" rel="noreferrer">
-              <WhatsappMark width={15} height={15} />
-              {t(s.messageOnWhatsapp)}
-            </a>
+           <a
+  className="team-link"
+  href={
+    members === doctors
+      ? `https://wa.me/919667657227?text=${encodeURIComponent(
+          `Namaste Sowik Wellness, I would like to book a online consultation with ${member.name}. Consultation fee: ₹1,000.`
+        )}`
+      : contact.whatsappHref
+  }
+  target="_blank"
+  rel="noreferrer"
+>
+  <WhatsappMark width={15} height={15} />
+  {members === doctors ? "Book Doctor Consultation" : t(s.messageOnWhatsapp)}
+</a>
           </div>
         </article>
       ))}
