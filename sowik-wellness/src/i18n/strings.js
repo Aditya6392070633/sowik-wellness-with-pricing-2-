@@ -152,7 +152,7 @@ export const strings = {
     percentOff: { en: "20% Off", hi: "20% छूट" },
     bookThisTherapy: { en: "Book this therapy →", hi: "यह थेरेपी बुक करें →" },
     whatsappMessage: {
-      en: (name, subtitle) => `Namaste Sowik Wellness, I'd like to book ${name} (${subtitle}) at home.`,
+      en: (name, subtitle) => `Namaste Sovik Wellness, I'd like to book ${name} (${subtitle}) at home.`,
       hi: (name, subtitle) => `नमस्ते सोविक वेलनेस, मैं घर पर ${name} (${subtitle}) बुक करना चाहता/चाहती हूँ।`,
     },
   },
