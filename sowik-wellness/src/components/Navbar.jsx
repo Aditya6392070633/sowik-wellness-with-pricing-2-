@@ -106,7 +106,7 @@ const goToResult = (result) => {
   return (
     <header className="nav">
       <div className="wrap nav-inner">
-        <a href="#top" className="brand">
+        <a href="/" className="brand">
           <LeafMark width={28} height={28} className="brand-mark" />
           <span className="brand-name">{t(strings.brandName)}</span>
         </a>

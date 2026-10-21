@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer-grid">
           <div className="footer-brand">
-            <a href="#top" className="brand">
+            <a hhref="/" className="brand">
               <LeafMark width={26} height={26} style={{ color: "#c4832a" }} />
               <span className="brand-name">{t(strings.brandName)}</span>
             </a>
@@ -42,7 +42,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#how-it-works">{t(s.howBookingWorks)}</a>
+                <a href="/#how-it-works">{t(s.howBookingWorks)}</a>
               </li>
             </ul>
           </div>

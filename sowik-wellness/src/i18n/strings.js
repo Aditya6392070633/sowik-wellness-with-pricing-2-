@@ -8,11 +8,12 @@ export const strings = {
 
   nav: {
     links: [
-      { href: "#formulary", label: { en: "Therapies & Pricing", hi: "थेरेपी और मूल्य" } },
-      { href: "#team", label: { en: "Team", hi: "हमारी टीम" } },
-      { href: "#how-it-works", label: { en: "How It Works", hi: "कैसे काम करता है" } },
-      { href: "#about", label: { en: "About", hi: "हमारे बारे में" } },
-      { href: "#contact", label: { en: "Contact", hi: "संपर्क करें" } },
+      { href: "/#formulary", label: { en: "Therapies & Pricing", hi: "थेरेपी और मूल्य" } },
+      { href: "/#team", label: { en: "Team", hi: "हमारी टीम" } },
+      { href: "/#how-it-works", label: { en: "How It Works", hi: "कैसे काम करता है" } },
+      { href: "/gallery", label: { en: "Gallery", hi: "गैलरी" } },
+      { href: "/#about", label: { en: "About", hi: "हमारे बारे में" } },
+      { href: "/#contact", label: { en: "Contact", hi: "संपर्क करें" } },
     ],
     searchLabel: { en: "Search", hi: "खोजें" },
     searchPlaceholder: { en: "Search therapies...", hi: "थेरेपी खोजें..." },
@@ -25,6 +26,8 @@ export const strings = {
     langEnglish: { en: "English", hi: "अंग्रेज़ी" },
     langHindi: { en: "Hindi", hi: "हिंदी" },
   },
+
+  gallery: { title: { en: "Our Gallery", hi: "हमारी गैलरी" } },
 
   hero: {
     eyebrow: {
