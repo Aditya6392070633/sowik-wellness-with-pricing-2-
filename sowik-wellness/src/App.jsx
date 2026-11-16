@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Intro from "./components/Intro";
@@ -36,6 +37,7 @@ export default function App() {
       </main>
       <Footer />
       <BookingBar />
+      <Analytics />
     </>
   );
 }
